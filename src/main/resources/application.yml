@@ -1,0 +1,29 @@
+# DataSource Config
+spring:
+  datasource:
+    name: test
+    # test为库名
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+# mybatis-plus
+mybatis-plus:
+  mapper-locations: classpath:com/liming/mapper/*.xml
+  type-aliases-package: com.liming.entity
+
+logging:
+  level:
+    root: error
+#  com.liming.app: debug
+
+  #日志存储地址
+  file:
+    name: "logs/config/demo-xx.log"
+
+server:
+  #端口号
+  port: 8888
+  #项目名，如果不设定，默认是 /
+  servlet:
+    context-path: /demo
