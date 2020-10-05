@@ -14,7 +14,7 @@ mybatis-plus:
 
 logging:
   level:
-    root: error
+    com.liming: debug
 #  com.liming.app: debug
 
   #日志存储地址
