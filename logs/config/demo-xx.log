@@ -506,3 +506,103 @@ java.lang.ArithmeticException: / by zero
 2020-10-05 11:02:49.009  INFO 11291 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path '/demo'
 2020-10-05 11:02:49.018  INFO 11291 --- [main] com.liming.App                           : Started App in 1.662 seconds (JVM running for 2.096)
 2020-10-05 11:02:58.655  INFO 11291 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-05 12:41:08.137  INFO 1138 --- [main] com.liming.App                           : Starting App on LimingdeMBP.lan with PID 1138 (/Users/yiliming/Code/SpringBootDemo/target/classes started by yiliming in /Users/yiliming/Code/SpringBootDemo)
+2020-10-05 12:41:08.139 DEBUG 1138 --- [main] com.liming.App                           : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-10-05 12:41:08.140  INFO 1138 --- [main] com.liming.App                           : No active profile set, falling back to default profiles: default
+2020-10-05 12:41:08.666  WARN 1138 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.liming.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-10-05 12:41:08.667  WARN 1138 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.liming.mapper]' package. Please check your configuration.
+2020-10-05 12:41:08.919  INFO 1138 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-10-05 12:41:08.925  INFO 1138 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-05 12:41:08.926  INFO 1138 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-05 12:41:08.969  INFO 1138 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2020-10-05 12:41:08.969  INFO 1138 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 784 ms
+2020-10-05 12:41:09.332  INFO 1138 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-05 12:41:09.386  INFO 1138 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-10-05 12:41:09.493  INFO 1138 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path '/demo'
+2020-10-05 12:41:09.501  INFO 1138 --- [main] com.liming.App                           : Started App in 1.692 seconds (JVM running for 2.152)
+2020-10-05 12:43:20.555  INFO 1138 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-05 12:43:20.555  INFO 1138 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-05 12:43:20.561  INFO 1138 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-10-05 12:44:49.356  INFO 1138 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-05 12:44:52.998  INFO 1219 --- [main] com.liming.App                           : Starting App on LimingdeMBP.lan with PID 1219 (/Users/yiliming/Code/SpringBootDemo/target/classes started by yiliming in /Users/yiliming/Code/SpringBootDemo)
+2020-10-05 12:44:53.000 DEBUG 1219 --- [main] com.liming.App                           : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-10-05 12:44:53.000  INFO 1219 --- [main] com.liming.App                           : No active profile set, falling back to default profiles: default
+2020-10-05 12:44:53.350  WARN 1219 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.liming.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-10-05 12:44:53.350  WARN 1219 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.liming.mapper]' package. Please check your configuration.
+2020-10-05 12:44:53.543  INFO 1219 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-10-05 12:44:53.548  INFO 1219 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-05 12:44:53.548  INFO 1219 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-05 12:44:53.592  INFO 1219 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2020-10-05 12:44:53.592  INFO 1219 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 566 ms
+2020-10-05 12:44:53.880  INFO 1219 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-05 12:44:53.916  INFO 1219 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-10-05 12:44:54.014  INFO 1219 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path '/demo'
+2020-10-05 12:44:54.022  INFO 1219 --- [main] com.liming.App                           : Started App in 1.241 seconds (JVM running for 1.569)
+2020-10-05 12:45:05.199  INFO 1219 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-05 12:45:05.200  INFO 1219 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-05 12:45:05.203  INFO 1219 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2020-10-05 13:15:50.831  INFO 1219 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-05 13:15:53.918  INFO 1694 --- [main] com.liming.App                           : Starting App on LimingdeMBP.lan with PID 1694 (/Users/yiliming/Code/SpringBootDemo/target/classes started by yiliming in /Users/yiliming/Code/SpringBootDemo)
+2020-10-05 13:15:53.921 DEBUG 1694 --- [main] com.liming.App                           : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-10-05 13:15:53.921  INFO 1694 --- [main] com.liming.App                           : No active profile set, falling back to default profiles: default
+2020-10-05 13:15:54.346  WARN 1694 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.liming.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-10-05 13:15:54.347  WARN 1694 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.liming.mapper]' package. Please check your configuration.
+2020-10-05 13:15:54.577  INFO 1694 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-10-05 13:15:54.584  INFO 1694 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-05 13:15:54.584  INFO 1694 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-05 13:15:54.629  INFO 1694 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2020-10-05 13:15:54.629  INFO 1694 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 677 ms
+2020-10-05 13:15:54.990  INFO 1694 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-05 13:15:55.035  INFO 1694 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-10-05 13:15:55.135  INFO 1694 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path '/demo'
+2020-10-05 13:15:55.144  INFO 1694 --- [main] com.liming.App                           : Started App in 1.45 seconds (JVM running for 1.834)
+2020-10-05 13:15:58.636  INFO 1694 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-05 13:15:58.636  INFO 1694 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-05 13:15:58.639  INFO 1694 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2020-10-05 13:40:02.575  INFO 1694 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-05 13:41:13.045  INFO 2030 --- [main] com.liming.App                           : Starting App on LimingdeMBP.lan with PID 2030 (/Users/yiliming/Code/SpringBootDemo/target/classes started by yiliming in /Users/yiliming/Code/SpringBootDemo)
+2020-10-05 13:41:13.047 DEBUG 2030 --- [main] com.liming.App                           : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-10-05 13:41:13.048  INFO 2030 --- [main] com.liming.App                           : No active profile set, falling back to default profiles: default
+2020-10-05 13:41:13.455  WARN 2030 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.liming.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-10-05 13:41:13.455  WARN 2030 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.liming.mapper]' package. Please check your configuration.
+2020-10-05 13:41:13.682  INFO 2030 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-10-05 13:41:13.689  INFO 2030 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-05 13:41:13.689  INFO 2030 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-05 13:41:13.733  INFO 2030 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2020-10-05 13:41:13.733  INFO 2030 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 653 ms
+2020-10-05 13:41:14.107  INFO 2030 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-05 13:41:14.162  INFO 2030 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-10-05 13:41:14.245  INFO 2030 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path '/demo'
+2020-10-05 13:41:14.252  INFO 2030 --- [main] com.liming.App                           : Started App in 1.452 seconds (JVM running for 1.797)
+2020-10-05 13:41:23.660  INFO 2030 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-05 13:41:23.660  INFO 2030 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-05 13:41:23.665  INFO 2030 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-10-05 13:41:23.728  INFO 2030 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : test - Starting...
+2020-10-05 13:41:24.015  INFO 2030 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : test - Start completed.
+2020-10-05 13:41:24.023 DEBUG 2030 --- [http-nio-8888-exec-1] com.liming.mapper.UserMapper.selectMaps  : ==>  Preparing: SELECT id,name,age,email FROM user ORDER BY age ASC
+2020-10-05 13:41:24.042 DEBUG 2030 --- [http-nio-8888-exec-1] com.liming.mapper.UserMapper.selectMaps  : ==> Parameters: 
+2020-10-05 13:41:24.065 DEBUG 2030 --- [http-nio-8888-exec-1] com.liming.mapper.UserMapper.selectMaps  : <==      Total: 0
+2020-10-05 13:42:12.198 DEBUG 2030 --- [http-nio-8888-exec-2] com.liming.mapper.UserMapper.selectMaps  : ==>  Preparing: SELECT id,name,age,email FROM user ORDER BY age ASC
+2020-10-05 13:42:12.198 DEBUG 2030 --- [http-nio-8888-exec-2] com.liming.mapper.UserMapper.selectMaps  : ==> Parameters: 
+2020-10-05 13:42:12.201 DEBUG 2030 --- [http-nio-8888-exec-2] com.liming.mapper.UserMapper.selectMaps  : <==      Total: 1
+2020-10-05 18:54:52.382  WARN 2030 --- [test housekeeper] com.zaxxer.hikari.pool.HikariPool        : test - Thread starvation or clock leap detected (housekeeper delta=3m26s11ms).
+2020-10-05 18:55:58.150  WARN 2030 --- [test housekeeper] com.zaxxer.hikari.pool.HikariPool        : test - Thread starvation or clock leap detected (housekeeper delta=1m5s768ms).
+2020-10-05 19:11:48.775  INFO 5440 --- [main] com.liming.AppTest                       : Starting AppTest on LimingdeMBP.lan with PID 5440 (started by yiliming in /Users/yiliming/Code/SpringBootDemo)
+2020-10-05 19:11:48.776 DEBUG 5440 --- [main] com.liming.AppTest                       : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-10-05 19:11:48.777  INFO 5440 --- [main] com.liming.AppTest                       : No active profile set, falling back to default profiles: default
+2020-10-05 19:11:49.266  WARN 5440 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.liming.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-10-05 19:11:49.266  WARN 5440 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.liming.mapper]' package. Please check your configuration.
+2020-10-05 19:11:50.154  INFO 5440 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-05 19:11:50.240  INFO 5440 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-10-05 19:11:50.454  INFO 5440 --- [main] com.liming.AppTest                       : Started AppTest in 1.904 seconds (JVM running for 2.648)
+2020-10-05 19:11:50.683  INFO 5440 --- [main] com.zaxxer.hikari.HikariDataSource       : test - Starting...
+2020-10-05 19:11:50.986  INFO 5440 --- [main] com.zaxxer.hikari.HikariDataSource       : test - Start completed.
+2020-10-05 19:11:50.993 DEBUG 5440 --- [main] com.liming.mapper.UserMapper.selectList  : ==>  Preparing: SELECT id,name,age,email FROM user
+2020-10-05 19:11:51.017 DEBUG 5440 --- [main] com.liming.mapper.UserMapper.selectList  : ==> Parameters: 
+2020-10-05 19:11:51.039 DEBUG 5440 --- [main] com.liming.mapper.UserMapper.selectList  : <==      Total: 1
+2020-10-05 19:11:51.080  INFO 5440 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-05 19:11:51.080  INFO 5440 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : test - Shutdown initiated...
+2020-10-05 19:11:51.082  INFO 5440 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : test - Shutdown completed.
+2020-10-05 19:40:42.414  INFO 2030 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-05 19:40:42.416  INFO 2030 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : test - Shutdown initiated...
+2020-10-05 19:40:42.422  INFO 2030 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : test - Shutdown completed.

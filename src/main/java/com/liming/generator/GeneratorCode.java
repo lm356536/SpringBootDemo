@@ -59,7 +59,7 @@ public class GeneratorCode {
     // 包配置
     PackageConfig pc = new PackageConfig();
     pc.setModuleName(scanner("包名"));
-    pc.setParent("com.liming.generator");
+    pc.setParent("com.liming");
     mpg.setPackageInfo(pc);
 
 

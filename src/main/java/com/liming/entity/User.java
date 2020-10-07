@@ -1,20 +1,43 @@
 package com.liming.entity;
 
-import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.Data;
-import lombok.experimental.Accessors;
+import lombok.EqualsAndHashCode;
 
+import java.io.Serializable;
+
+/**
+ * <p>
+ * 
+ * </p>
+ *
+ * @author liming
+ * @since 2020-10-05
+ */
 @Data
-@Accessors(chain = true)
-public class User {
-  private  Long id;
-  private  String name;
-  private Integer age;
-  private  String email;
+@EqualsAndHashCode(callSuper = false)
+public class User implements Serializable {
 
-  @TableField(exist = false)
-  private String ignoreColumn = "ignoreColumn";
+    private static final long serialVersionUID = 1L;
 
-  @TableField(exist = false)
-  private Integer count;
+    /**
+     * 主键ID
+     */
+    private Long id;
+
+    /**
+     * 姓名
+     */
+    private String name;
+
+    /**
+     * 年龄
+     */
+    private Integer age;
+
+    /**
+     * 邮箱
+     */
+    private String email;
+
+
 }
